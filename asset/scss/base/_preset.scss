@@ -1,0 +1,15 @@
+// common의 용도
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+body{  
+  background: #f0f0f0;
+
+  font-family: 'Poppins', 'Noto Sans KR',  sans-serif;
+}
